@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer-container {
+    position: relative;
+    width: 220px;
+    height: 220px;
+}
+
+.center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#display {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* The Circular Start Button */
+.circular-btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #00ffcc;
+    background: transparent;
+    color: #00ffcc;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.circular-btn:hover {
+    background: #00ffcc;
+    color: black;
+}
+
+/* Small Reset Button */
+.reset-btn {
+    margin-top: 20px;
+    background: none;
+    border: 1px solid #666;
+    color: #999;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.reset-btn:hover { color: white; border-color: white; }
+
+/* Progress Ring Animation */
+.progress-ring__circle {
+    transition: stroke-dashoffset 1s linear;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    stroke-dasharray: 628.3; /* 2 * PI * 100 */
+    stroke-dashoffset: 0;
+}

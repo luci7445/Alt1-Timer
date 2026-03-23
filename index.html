@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alt1 Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timer-container">
+        <svg class="progress-ring" width="220" height="220">
+            <circle class="progress-ring__background" stroke="#222" stroke-width="10" fill="transparent" r="100" cx="110" cy="110"/>
+            <circle class="progress-ring__circle" stroke="#00ffcc" stroke-width="10" fill="transparent" r="100" cx="110" cy="110"/>
+        </svg>
+
+        <div class="center-content">
+            <div id="display">01:00</div>
+            <button id="startBtn" class="circular-btn">START</button>
+        </div>
+    </div>
+
+    <button id="resetBtn" class="reset-btn">Reset</button>
+
+    <audio id="alarmSound" src="alarm.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

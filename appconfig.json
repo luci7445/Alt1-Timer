@@ -1,0 +1,16 @@
+{
+	"appName": "Timers",
+	"description": "Custom timers that show as they progress.",
+	"appUrl": "https://yourusername.github.io/your-repo/index.html",
+	"configUrl": "https://yourusername.github.io/your-repo/appconfig.json",
+	"iconUrl": "https://yourusername.github.io/your-repo/icon.png",
+	"defaultWidth": 300,
+	"defaultHeight": 300,
+	"minWidth": 200,
+	"minHeight": 50,
+	"maxWidth": 2000,
+	"maxHeight": 2000,
+	"requestHandlers": [ ],
+	"activators": [ ],
+	"permissions": "overlay"
+}
