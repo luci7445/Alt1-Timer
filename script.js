@@ -5,7 +5,7 @@ const resetBtn = document.getElementById('resetBtn');
 const alarm = document.getElementById('alarmSound');
 
 const circumference = 100 * 2 * Math.PI;
-let duration = 10; // 3600 seconds
+let duration = 3600; // 3600 seconds
 let timeLeft = duration;
 let timerId = null;
 
