@@ -1,9 +1,9 @@
 {
-	"appName": "Timers",
+	"appName": "Timersbyluci",
 	"description": "Custom timers that show as they progress.",
-	"appUrl": "https://yourusername.github.io/your-repo/index.html",
-	"configUrl": "https://yourusername.github.io/your-repo/appconfig.json",
-	"iconUrl": "https://yourusername.github.io/your-repo/icon.png",
+	"appUrl": "https://luci7445.github.io/Alt1-Timer/index.html",
+	"configUrl": "https://luci7445.github.io/Alt1-Timer/appconfig.json",
+	"iconUrl": "https://luci7445.github.io/Alt1-Timer/icon.png",
 	"defaultWidth": 300,
 	"defaultHeight": 300,
 	"minWidth": 200,
